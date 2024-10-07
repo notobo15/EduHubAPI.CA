@@ -7,31 +7,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{33CCED7F-4F2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DAC25B6A-3C8B-4C0D-A43D-3416ED8E48BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.WebApi", "EduHubAPI.CA\Src\Presentation\EduHubAPI.CA.WebApi\EduHubAPI.CA.WebApi.csproj", "{EF77F727-29CA-4C09-9036-A6BD8BDCBD67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.WebApi", "Src\Presentation\EduHubAPI.CA.WebApi\EduHubAPI.CA.WebApi.csproj", "{EF77F727-29CA-4C09-9036-A6BD8BDCBD67}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{54200C28-76E8-4B19-AEBE-EB30AD725AB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Application", "EduHubAPI.CA\Src\Core\EduHubAPI.CA.Application\EduHubAPI.CA.Application.csproj", "{9C1AAE1B-EDDE-4B60-9451-B3EDEECA61A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Application", "Src\Core\EduHubAPI.CA.Application\EduHubAPI.CA.Application.csproj", "{9C1AAE1B-EDDE-4B60-9451-B3EDEECA61A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Domain", "EduHubAPI.CA\Src\Core\EduHubAPI.CA.Domain\EduHubAPI.CA.Domain.csproj", "{150661E8-E8D1-488A-8EAF-A63906C203C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Domain", "Src\Core\EduHubAPI.CA.Domain\EduHubAPI.CA.Domain.csproj", "{150661E8-E8D1-488A-8EAF-A63906C203C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1D92DFE3-D142-4188-BABC-C9641177962A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Infrastructure.FileManager", "EduHubAPI.CA\Src\Infrastructure\EduHubAPI.CA.Infrastructure.FileManager\EduHubAPI.CA.Infrastructure.FileManager.csproj", "{C7BD2ECF-6177-4F32-A1E1-3DA381793D06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Infrastructure.FileManager", "Src\Infrastructure\EduHubAPI.CA.Infrastructure.FileManager\EduHubAPI.CA.Infrastructure.FileManager.csproj", "{C7BD2ECF-6177-4F32-A1E1-3DA381793D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Infrastructure.Identity", "EduHubAPI.CA\Src\Infrastructure\EduHubAPI.CA.Infrastructure.Identity\EduHubAPI.CA.Infrastructure.Identity.csproj", "{53C3B315-1AEB-4AE8-8668-62368BD0E243}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Infrastructure.Identity", "Src\Infrastructure\EduHubAPI.CA.Infrastructure.Identity\EduHubAPI.CA.Infrastructure.Identity.csproj", "{53C3B315-1AEB-4AE8-8668-62368BD0E243}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Infrastructure.Persistence", "EduHubAPI.CA\Src\Infrastructure\EduHubAPI.CA.Infrastructure.Persistence\EduHubAPI.CA.Infrastructure.Persistence.csproj", "{187C836F-A9D3-4D82-9F1E-59D15A43A1DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Infrastructure.Persistence", "Src\Infrastructure\EduHubAPI.CA.Infrastructure.Persistence\EduHubAPI.CA.Infrastructure.Persistence.csproj", "{187C836F-A9D3-4D82-9F1E-59D15A43A1DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Infrastructure.Resources", "EduHubAPI.CA\Src\Infrastructure\EduHubAPI.CA.Infrastructure.Resources\EduHubAPI.CA.Infrastructure.Resources.csproj", "{613A7569-A938-4B06-9787-18704E4B761D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.Infrastructure.Resources", "Src\Infrastructure\EduHubAPI.CA.Infrastructure.Resources\EduHubAPI.CA.Infrastructure.Resources.csproj", "{613A7569-A938-4B06-9787-18704E4B761D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{23F58A5F-2597-40F0-817F-A03F6706E426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.FunctionalTests", "EduHubAPI.CA\Tests\EduHubAPI.CA.FunctionalTests\EduHubAPI.CA.FunctionalTests.csproj", "{B2AB7997-CF6A-444B-83DE-4B68E7FA9652}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.FunctionalTests", "Tests\EduHubAPI.CA.FunctionalTests\EduHubAPI.CA.FunctionalTests.csproj", "{B2AB7997-CF6A-444B-83DE-4B68E7FA9652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.UnitTests", "EduHubAPI.CA\Tests\EduHubAPI.CA.UnitTests\EduHubAPI.CA.UnitTests.csproj", "{2C933EC9-4164-466D-9BDD-0DABED2055AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.UnitTests", "Tests\EduHubAPI.CA.UnitTests\EduHubAPI.CA.UnitTests.csproj", "{2C933EC9-4164-466D-9BDD-0DABED2055AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.IntegrationTests", "EduHubAPI.CA\Tests\EduHubAPI.CA.IntegrationTests\EduHubAPI.CA.IntegrationTests.csproj", "{5B04BF7F-D04A-4588-AA77-7B561682B9F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduHubAPI.CA.IntegrationTests", "Tests\EduHubAPI.CA.IntegrationTests\EduHubAPI.CA.IntegrationTests.csproj", "{5B04BF7F-D04A-4588-AA77-7B561682B9F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

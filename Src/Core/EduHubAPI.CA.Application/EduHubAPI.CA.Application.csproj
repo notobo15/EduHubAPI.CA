@@ -5,11 +5,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
 		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
 		<PackageReference Include="MediatR" Version="12.4.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\EduHubAPI.CA.Domain\EduHubAPI.CA.Domain.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Features\Courses\Commands\CreateCourse\" />
+	  <Folder Include="Features\Courses\Commands\DeleteCourse\" />
+	  <Folder Include="Features\Courses\Commands\UpdateCourse\" />
+	  <Folder Include="Features\Courses\Queries\GetCourseById\" />
 	</ItemGroup>
 
 </Project>

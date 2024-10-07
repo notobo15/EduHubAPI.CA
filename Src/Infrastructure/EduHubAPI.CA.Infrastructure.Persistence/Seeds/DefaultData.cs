@@ -1,3 +1,4 @@
+using EduHubAPI.CA.Domain.Courses.Entities;
 using EduHubAPI.CA.Domain.Products.Entities;
 using EduHubAPI.CA.Infrastructure.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,21 @@ namespace EduHubAPI.CA.Infrastructure.Persistence.Seeds
                 ];
 
                 await applicationDbContext.Products.AddRangeAsync(defaultProducts);
+
+                await applicationDbContext.SaveChangesAsync();
+            }
+
+            if (!await applicationDbContext.Courses.AnyAsync())
+            {
+                List<Course> defaultCourses = [
+                    new Course {Title = "Course 1", Duration = 10000, Price = 100000, Slug = "course-1", Description = ""},
+                    new Course {Title = "Course 2", Duration = 20000, Price = 200000, Slug = "course-2", Description = ""},
+                    new Course {Title = "Course 3", Duration = 15300, Price = 300000, Slug = "course-3", Description = ""},
+                    new Course {Title = "Course 4", Duration = 30000, Price = 400000, Slug = "course-4", Description = ""},
+                    new Course {Title = "Course 5", Duration = 40000, Price = 500000, Slug = "course-5", Description = ""},
+                ];
+
+                await applicationDbContext.Courses.AddRangeAsync(defaultCourses);
 
                 await applicationDbContext.SaveChangesAsync();
             }
